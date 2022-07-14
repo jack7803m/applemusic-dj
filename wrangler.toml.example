@@ -1,0 +1,10 @@
+name = "applemusic-dj"
+account_id = "<account_id>"
+main = ".cloudflare/index.ts"
+
+site.bucket = "./build"
+
+build.command = "npm run build"
+
+compatibility_date = "2022-07-14"
+workers_dev = true
